@@ -77,3 +77,27 @@ Set it up as follow:
     ],
 }
 ```
+
+For local include paths please add the following:
+```json
+{
+    "python.autoComplete.extraPaths": [
+        "/home/chanjl/isera2_prep_box/isera2_new_struct/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/scout_msgs_ws/devel/lib/python2.7/dist-packages",
+        "/home/chanjl/isera2_prep_box/vision_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "c-cpp-flylint.clang.includePaths": [
+        "/opt/ros/melodic/include",
+        "${workspaceFolder}/i2r_sliding_autonomy_server/include",
+        "${workspaceFolder}/../../devel/include/",
+        "/usr/include/eigen3"
+    ],
+    "c-cpp-flylint.cppcheck.includePaths": [
+        "/opt/ros/melodic/include",
+        "${workspaceFolder}/i2r_sliding_autonomy_server/include",
+        "${workspaceFolder}/../../devel/include/",
+        "/usr/include/eigen3"
+    ]
+}
+```
