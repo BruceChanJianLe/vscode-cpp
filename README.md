@@ -6,6 +6,7 @@ This repository demonstrates the setting up and usage of cpp static check tools.
 
 **C/C++ Advanced Lint**:  
 
+Please enable everything that you see for cppcheck in the settings [ctrl + ,]
 Set it up as follow:
 ```json
 {
