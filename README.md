@@ -88,12 +88,14 @@ For local include paths please add the following:
         "/opt/ros/melodic/lib/python2.7/dist-packages"
     ],
     "c-cpp-flylint.clang.includePaths": [
+        // It will be better to not include the ROS headers and eigen3
         "/opt/ros/melodic/include",
         "${workspaceFolder}/i2r_sliding_autonomy_server/include",
         "${workspaceFolder}/../../devel/include/",
         "/usr/include/eigen3"
     ],
     "c-cpp-flylint.cppcheck.includePaths": [
+        // It will be better to not include the ROS headers and eigen3
         "/opt/ros/melodic/include",
         "${workspaceFolder}/i2r_sliding_autonomy_server/include",
         "${workspaceFolder}/../../devel/include/",
