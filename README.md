@@ -75,6 +75,14 @@ Set it up as follow:
     "c-cpp-flylint.cppcheck.standard": [
         "c++11",
     ],
+    "c-cpp-flylint.clang.includePaths": [
+        "${workspaceFolder}/${workspaceFolderBasename}/include",
+        "${workspaceFolder}/../../devel/include/",
+    ],
+    "c-cpp-flylint.cppcheck.includePaths": [
+        "${workspaceFolder}/${workspaceFolderBasename}/include",
+        "${workspaceFolder}/../../devel/include/",
+    ]
 }
 ```
 
