@@ -103,3 +103,5 @@ For local include paths please add the following:
     ]
 }
 ```
+
+For more about reference variables please refer to this [page](https://code.visualstudio.com/docs/editor/variables-reference).
